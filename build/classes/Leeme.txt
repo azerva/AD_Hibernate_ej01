@@ -1,0 +1,21 @@
+Ejercicio 1
+
+Para la realizaciñon del ejericio se ha utilizado: 
+	Netbeans 8
+	Java 8
+	Librería Hibernate 5.2.10 y al crear los archivos de configuración se añade Hibernate 4.3
+	Conector mysql-connector-java-8.0.26
+
+El programa se divide en varios paquetes:
+    Default:
+	    Contiene los archivos de configuración de hibernate
+	    Si asignamos algun tipo de nombre a este paquete la configuración de hibernate da error, 
+	    por lo que no se aconseja el cambio de nombre
+    Entidades:
+	    Contiene los POJOS de la base de datos de hibernate con sus respectivos archivos hbm.xml
+    UI:
+	La clase ConsultasView contiene el apartado gráfico del formulario para realizar las consultas
+	solicitadas en el ejercicio.
+	La calse ConsultasCotroller contiene la lógica que genera las consultas y las muestra en la calse ConsultasView
+    Utils:
+	    Contiene la configuración para abrir la sesión con hibernate
